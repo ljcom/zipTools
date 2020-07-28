@@ -1,0 +1,10 @@
+C:\vsonline\addons\zipTools\zipTools\bin\Debug\zipTools.exe.config
+C:\vsonline\addons\zipTools\zipTools\bin\Debug\zipTools.exe
+C:\vsonline\addons\zipTools\zipTools\bin\Debug\zipTools.pdb
+C:\vsonline\addons\zipTools\zipTools\bin\Debug\System.IO.Packaging.dll
+C:\vsonline\addons\zipTools\zipTools\bin\Debug\System.IO.Packaging.xml
+C:\vsonline\addons\zipTools\zipTools\obj\Debug\zipTools.csprojAssemblyReference.cache
+C:\vsonline\addons\zipTools\zipTools\obj\Debug\zipTools.csproj.CoreCompileInputs.cache
+C:\vsonline\addons\zipTools\zipTools\obj\Debug\zipTools.csproj.CopyComplete
+C:\vsonline\addons\zipTools\zipTools\obj\Debug\zipTools.exe
+C:\vsonline\addons\zipTools\zipTools\obj\Debug\zipTools.pdb
