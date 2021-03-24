@@ -39,13 +39,15 @@ namespace zipTools
                 }
                 else
                 {
-                    var zipFilePath = args[1];
-                    var folderPath = args[2];
-                    using (Package package = ZipPackage.Open(zipFilePath, FileMode.Open, FileAccess.Read))
+                    String zipFilePath = args[1];
+                    String folderPath = args[2];
+                    System.IO.Compression.ZipFile.ExtractToDirectory(zipFilePath, folderPath);
+                    /*
+                    using (Package package = ZipPackage.Open(args[1], FileMode.Open, FileAccess.Read))
                     {
                         foreach (PackagePart part in package.GetParts())
                         {
-                            var target = Path.GetFullPath(Path.Combine(folderPath, part.Uri.OriginalString.TrimStart('/')));
+                            var target = Path.GetFullPath(Path.Combine(args[2], part.Uri.OriginalString.TrimStart('/')));
                             var targetDir = target.Remove(target.LastIndexOf('\\'));
 
                             if (!Directory.Exists(targetDir))
@@ -57,6 +59,7 @@ namespace zipTools
                             }
                         }
                     }
+                    */
                 }
             }
         }
